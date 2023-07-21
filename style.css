@@ -1,0 +1,131 @@
+#Avatar {
+  border-radius: 50%;
+}
+
+header {
+  text-align: center;
+}
+
+#PhoneE {
+  word-spacing: 250px;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h3 {
+  text-align: center;
+  color: #96e0f4;
+  text-shadow: 2px 2px 4px #ead9d9;
+}
+
+h1 {
+  text-shadow: 2px 2px 4px #ead9d9;
+}
+
+.text1 {
+  margin: 0 auto;
+}
+
+.text1:visited {
+  color: transparent;
+}
+
+.logos {
+  display: inline-block;
+}
+
+#p1 {
+  margin-left: 600px;
+}
+
+#p2 {
+  margin-left: 600px;
+}
+
+#p3 {
+  margin-left: 600px;
+}
+
+#p4 {
+  margin-left: 600px;
+}
+
+#p5 {
+  margin-left: 600px;
+}
+
+footer {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#links {
+  text-underline-offset: none;
+}
+
+article {
+  background-color: rgb(65, 68, 72);
+  opacity: 0.5;
+  border-radius: 20px;
+}
+
+#move {
+  width: 40px;
+  height: 5px;
+  background: #96e0f4;
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.effect {
+  padding: 30px 20px 0;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 100px;
+  overflow: hidden;
+  line-height: 1.3;
+}
+h1 {
+  display: block;
+  animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+}
+
+@keyframes reveal {
+  0% {
+    transform: translate(0, 100%);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes mymove {
+  from {
+    left: 460px;
+  }
+  to {
+    left: 1000px;
+  }
+}
+
+a:visited {
+  color: #96e0f4;
+}
+
+a:hover {
+  color: #0baedb;
+}
+
+a {
+  text-decoration: none;
+}
